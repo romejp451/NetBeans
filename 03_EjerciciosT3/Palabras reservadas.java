@@ -64,13 +64,15 @@ public class Pruebas20 {
         
         
         String java = JOptionPane.showInputDialog("Ingrese las palabras reservadas de java y cuando haya acertado las 50 palabras pulse enter: ");
-        while (lista.size() != 0){
+        while (lista.size() != 1){
             if(lista.contains(java)){
                 lista.remove(java);
             }else{
                 JOptionPane.showMessageDialog(null, "La palabra que pusiste no es una palabra reservada o se ha repetido");
             }
         java = JOptionPane.showInputDialog("Ingrese otra palabra reservadas de java: ");
-    }System.out.println("Ya lo has conseguido campeón");
+    }if (lista.size() ==1){
+        JOptionPane.showMessageDialog(null, "Ya lo has conseguido campeón");
+        }
     }
 }
