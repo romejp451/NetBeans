@@ -10,10 +10,11 @@ public class Tema3_ej04 {
         boolean pagina = true;
         String si = "si";
         String no = "no";
+        String edad;
         
         while (pagina == true){
             System.out.println("Eres mayor de edad? si/no");
-            String edad = new Scanner (System.in). nextLine();
+            edad = new Scanner (System.in). nextLine();
             
             if(edad.equals(si)){
                 System.out.println("El usuario es mayor de edad.");
