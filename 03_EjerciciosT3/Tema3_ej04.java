@@ -26,14 +26,7 @@ public class Tema3_ej04 {
                     }else{
                         System.out.println("No te entiendo");
                 }
-            }
-            
-        }
-                
-        
-        
-        
-        
+            }   
+        }     
     }
-    
 }
