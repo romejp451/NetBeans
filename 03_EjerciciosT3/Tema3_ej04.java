@@ -12,7 +12,7 @@ public class Tema3_ej04 {
         String no = "no";
         String edad;
         
-        while (pagina == true){
+        while (pagina){
             System.out.println("Eres mayor de edad? si/no");
             edad = new Scanner (System.in). nextLine();
             
