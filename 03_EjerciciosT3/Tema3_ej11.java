@@ -67,7 +67,7 @@ public class Tema3_ej11 {
                 default:
                     System.out.println("Te equivocaste maquina pon 1, 2 o 3");
             }
-        }while(empieza==true);
+        }while(empieza);
         System.out.println("El programa ya ha terminado");
         
     }
