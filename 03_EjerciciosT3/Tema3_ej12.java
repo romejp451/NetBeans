@@ -7,7 +7,7 @@ import java.lang.*;
  */
 public class Tema3_ej12 {
     public static void main(String[] args) {
-        boolean sigue = true;
+        boolean nota_valida = true;
         double nota;
         ArrayList num = new ArrayList();
         double media = 0;
@@ -23,17 +23,16 @@ public class Tema3_ej12 {
             }   
             else{
                 if(nota == -1){
-                    sigue=false;
+                    nota_valida = false;
                 }
                 else{
                     System.out.println("El numero que introdujiste es negativo o mayor a 10, introduzca uno nuevo");
                 }
             }
-        }while(sigue);
+        }while(nota_valida);
         
         double max = (double) Collections.max(num);
         double min = (double) Collections.min(num);
-        int tamaño = num.size();
         System.out.println("El numero mas grande de los que has inroducido es "+max);
         System.out.println("El numero mas pequeño de los que has inroducido es "+min);
         System.out.println("La nota media es de "+(media/contador));
