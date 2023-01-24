@@ -22,8 +22,6 @@ public class Examen_T3_06 {
         for(int x=0; x<ceros.length; x++){
             System.out.println("El numero que esta en la posicion "+x+" es "+ceros[x]);
         }
-        
-            
     }
     
 }
