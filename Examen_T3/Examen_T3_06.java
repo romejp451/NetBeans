@@ -7,7 +7,6 @@ import java.util.*;
  */
 public class Examen_T3_06 {
     public static void main(String[] args) {
-        ArrayList ceros = new ArrayList();
         int[] ceros= new int[5000];
         
         for(int x=0; x<ceros.length; x++){
